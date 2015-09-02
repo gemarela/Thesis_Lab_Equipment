@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    tools:context=".MainActivity"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_height="wrap_content" android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent" android:orientation="vertical"
+        android:paddingTop="2.5dp" android:paddingBottom="2.5dp"
+        android:paddingRight="10dp" android:paddingLeft="10dp">
+        <TextView android:id="@+id/tvitem"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:layout_height="0dp" />
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+            android:orientation="vertical" android:paddingTop="2.5dp" android:paddingBottom="2.5dp"
+            android:paddingRight="10dp" android:paddingLeft="10dp" android:id="@+id/typeRow">
+            <TextView android:id="@+id/tvtype"
+                android:text="@string/type"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/darker_gray">
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+            android:orientation="vertical" android:paddingTop="2.5dp" android:paddingBottom="2.5dp"
+            android:paddingRight="10dp" android:paddingLeft="10dp" android:id="@+id/modelRow">
+            <TextView android:id="@+id/tvmodel"
+                android:text="@string/model"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/model"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/darker_gray">
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+            android:orientation="vertical" android:paddingTop="2.5dp" android:paddingBottom="2.5dp"
+            android:paddingRight="10dp" android:paddingLeft="10dp" android:id="@+id/producerRow">
+            <TextView android:id="@+id/tvprod"
+                android:text="@string/producer"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/producer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/darker_gray">
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+            android:orientation="vertical" android:paddingTop="2.5dp" android:paddingBottom="2.5dp"
+            android:paddingRight="10dp" android:paddingLeft="10dp" android:id="@+id/snRow">
+            <TextView android:id="@+id/tvsn"
+                android:text="@string/sn"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/sn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/darker_gray">
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+            android:orientation="vertical" android:paddingTop="2.5dp" android:paddingBottom="2.5dp"
+            android:paddingRight="10dp" android:paddingLeft="10dp" android:id="@+id/serviceRow">
+            <TextView android:id="@+id/tvst"
+                android:text="@string/st"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/darker_gray">
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+            android:orientation="vertical" android:paddingTop="2.5dp" android:paddingBottom="2.5dp"
+            android:paddingRight="10dp" android:paddingLeft="10dp" android:id="@+id/costRow">
+            <TextView android:id="@+id/tvcost"
+                android:text="@string/cost"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/cost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/darker_gray">
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+            android:orientation="vertical" android:paddingTop="2.5dp" android:paddingBottom="2.5dp"
+            android:paddingRight="10dp" android:paddingLeft="10dp" android:id="@+id/warrantyRow">
+            <TextView android:id="@+id/tvwarranty"
+                android:text="@string/warranty"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/warranty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/darker_gray">
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+            android:orientation="vertical" android:paddingTop="2.5dp" android:paddingBottom="2.5dp"
+            android:paddingRight="10dp" android:paddingLeft="10dp" android:id="@+id/receiptRow">
+            <TextView android:id="@+id/tvreceipt"
+                android:text="@string/invoice"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/receipt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/darker_gray">
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+            android:orientation="vertical" android:paddingTop="2.5dp" android:paddingBottom="2.5dp"
+            android:paddingRight="10dp" android:paddingLeft="10dp" android:id="@+id/supplierRow">
+            <TextView android:id="@+id/tvsupplier"
+                android:text="@string/supplier"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/supplier"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/darker_gray">
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+            android:orientation="vertical" android:paddingTop="2.5dp" android:paddingBottom="2.5dp"
+            android:paddingRight="10dp" android:paddingLeft="10dp" android:id="@+id/dateRow">
+            <TextView android:id="@+id/tvdate"
+                android:text="@string/purchase"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/darker_gray">
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+            android:orientation="vertical" android:paddingTop="2.5dp" android:paddingBottom="2.5dp"
+            android:paddingRight="10dp" android:paddingLeft="10dp" android:id="@+id/locationRow">
+
+            <TextView android:id="@+id/tvlocation"
+                android:text="@string/location"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:layout_weight="1" />
+
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/darker_gray">
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+            android:orientation="vertical" android:paddingTop="2.5dp" android:paddingBottom="2.5dp"
+            android:paddingRight="10dp" android:paddingLeft="10dp" android:id="@+id/specsRow">
+
+            <TextView android:id="@+id/tvwspecs"
+                android:text="@string/specs"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/specs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:maxLines="5"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

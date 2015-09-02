@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_height="wrap_content" android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent" android:orientation="vertical">
+
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+            android:orientation="vertical" android:id="@+id/typeRow"
+            android:paddingRight="10dp" android:paddingLeft="10dp" >
+
+            <TextView android:id="@+id/tvtype"
+                android:text="@string/type"
+                android:layout_height="0dp"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:inputType="text"/>
+
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+            android:orientation="vertical" android:id="@+id/modelRow"
+            android:paddingRight="10dp" android:paddingLeft="10dp" >
+            <TextView android:id="@+id/tvmodel"
+                android:text="@string/model"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:inputType="text"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+            android:orientation="vertical" android:id="@+id/producerRow"
+            android:paddingRight="10dp" android:paddingLeft="10dp" >
+            <TextView android:id="@+id/tvprod"
+                android:text="@string/producer"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/producer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:inputType="text"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+            android:orientation="vertical" android:id="@+id/snRow"
+            android:paddingRight="10dp" android:paddingLeft="10dp" >
+            <TextView android:id="@+id/tvsn"
+                android:text="@string/sn"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/sn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:inputType="text"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+            android:orientation="vertical" android:id="@+id/serviceRow"
+            android:paddingRight="10dp" android:paddingLeft="10dp" >
+            <TextView android:id="@+id/tvst"
+                android:text="@string/st"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/service"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:inputType="text"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+            android:orientation="vertical" android:id="@+id/costRow"
+            android:paddingRight="10dp" android:paddingLeft="10dp" >
+            <TextView android:id="@+id/tvcost"
+                android:text="@string/cost"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/cost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:inputType="text"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+            android:orientation="vertical" android:id="@+id/warrantyRow"
+            android:paddingRight="10dp" android:paddingLeft="10dp" >
+            <TextView android:id="@+id/tvwarranty"
+                android:text="@string/warranty"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/warranty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:inputType="text"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+            android:orientation="vertical" android:id="@+id/receiptRow"
+            android:paddingRight="10dp" android:paddingLeft="10dp" >
+            <TextView android:id="@+id/tvreceipt"
+                android:text="@string/invoice"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/receipt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:inputType="text"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+            android:orientation="vertical" android:id="@+id/supplierRow"
+            android:paddingRight="10dp" android:paddingLeft="10dp" >
+            <TextView android:id="@+id/tvsupplier"
+                android:text="@string/supplier"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/supplier"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:inputType="text"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+            android:orientation="vertical" android:id="@+id/locationRow"
+            android:paddingRight="10dp" android:paddingLeft="10dp" >
+            <TextView android:id="@+id/tvlocation"
+                android:text="@string/location"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:inputType="text"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+            android:orientation="vertical" android:id="@+id/specsRow"
+            android:paddingRight="10dp" android:paddingLeft="10dp" >
+            <TextView android:id="@+id/tvwspecs"
+                android:text="@string/specs"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/specs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:inputType="text" />
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+            android:orientation="vertical" android:id="@+id/dateRow"
+            android:paddingRight="10dp" android:paddingLeft="10dp" >
+
+            <TextView android:id="@+id/tvdate"
+                android:text="@string/purchase"
+                android:layout_height="0dp"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal" />
+
+            <DatePicker android:layout_height="wrap_content"
+                android:calendarViewShown="false"
+                android:spinnersShown="true"
+                android:id="@+id/date_widget"
+                android:layout_width="match_parent"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

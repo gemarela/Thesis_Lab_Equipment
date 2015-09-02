@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Uth Labs Equipment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_sync">Sync</string>
+    <string name="action_about">About</string>
+    <string name="action_help">Help</string>
+    <string name="action_add">Add</string>
+    <string name="action_show">View DB</string>
+    <string name="splash">splash</string>
+    <string name="splash_message">Uth Labs Equipment</string>
+    <string name="help_message">Hover your smartphone over a nfc tag to show the info of the tagged item.\nYou can also add an entry to the database and view the whole database.</string>
+    <string name="about_message">UthLabsEquipement Version 0.1</string>
+    <string name="no_internet">There is no active internet connection. You need to activate one in order to access the database.</string>
+    <string name="positive">Yes</string>
+    <string name="negative">No</string>
+    <string name="table1">Item</string>
+    <string name="table2">S/N</string>
+    <string name="exit_message">Press again to exit the application</string>
+    <string name="save">Save</string>
+    <string name="done">Done</string>
+    <string name="wait">Please wait</string>
+    <string name="fetch">Fetching data....</string>
+    <string name="cancel">Cancel</string>
+    <string name="saving">Saving data....</string>
+    <string name="search">Searching....</string>
+    <string name="epasswd">Enter password</string>
+    <string name="login">Login</string>
+    <string name="wrong_pass">Access denied.</string>
+    <string name="right_pass">Access granted.</string>
+    <string name="type">Type</string>
+    <string name="model">Model</string>
+    <string name="producer">Producer</string>
+    <string name="warranty">Warranty</string>
+    <string name="supplier">Supplier</string>
+    <string name="cost">Unit Cost</string>
+    <string name="st">Service Tag</string>
+    <string name="sn">Serial Number</string>
+    <string name="invoice">Invoice number</string>
+    <string name="purchase">Purchase date</string>
+    <string name="location">Location</string>
+    <string name="specs">Specifications</string>
+    <string name="wrong_values">Please enter shorter values in the highlighted boxes.</string>
+    <string name="item">Item</string>
+    <string name="serialn">S/N</string>
+    <string name="auth">Authenticating....</string>
+    <string name="ecred">Enter Credentials</string>
+    <string name="taginfo">NFC Tag info:</string>
+    <string name="dis_nfc_msg">NFC is disabled. You need to activate it in order to scan nfc tags.</string>
+    <string name="nfc_support">This device does not support NFC.</string>
+    <string name="not_found">There is no entry for item with tag info:</string>
+    <string name="both">NFC and internet connection are disabled. Activate in order to use the application</string>
+    <string name="wait_tap">NFC is supported on this device. \n Tap item to show its info.</string>
+    <string name="no_tap">NFC is not supported on this device. \n You can still add item and view database.</string>
+    <string name="h_username">Username</string>
+    <string name="h_password">Password</string>
+    <string name="data_length">Zero or more than</string>
+    <string name="chars">characters</string>
+    <string name="canceled_operation">The operation has been canceled.</string>
+
+</resources>
